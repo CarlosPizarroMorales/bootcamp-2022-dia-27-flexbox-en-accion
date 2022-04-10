@@ -1,0 +1,132 @@
+html, 
+body,
+body * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: rgba(250, 217, 230, 1);
+  font-family: 'Cabin', sans-serif;
+}
+
+.navbar, .navbar * {
+  background: rgba(36, 61, 37, 1) !important;
+  font-family: 'LEMON MILK', sans-serif !important;
+}
+
+/** Estilos visuales generales */
+.base-style {
+  min-height: 50vh;
+  background: rgba(95, 116, 100, 1);
+  border: 10px inset rgba(36, 61, 37, 0.5);
+  border-radius: 10px;
+  color: rgba(36, 61, 37, 1);
+  box-shadow: 5px 5px 10px rgba(36, 61, 37, 1);
+}
+
+section.container {
+  position: relative;
+}
+
+.inicio {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  background: rgba(228, 174, 197, 1);
+  color: rgba(36, 61, 37, 1);
+  text-decoration: none;
+  padding: 0.3rem;
+  border: 5px inset rgba(36, 61, 37, 0.75);
+  border-radius: 4px;
+}
+.inicio:hover {
+  background: rgba(36, 61, 37, 1);
+  color: rgba(250, 217, 230, 1);
+  border: 5px inset rgba(228, 174, 197, 1);
+  box-shadow: 2px 2px 2px rgba(228, 174, 197, 1);
+  bottom: 8px;
+  right: 8px;
+}
+
+
+/** Específicos de cada ejercicio */
+
+#ejercicio-1,
+#ejercicio-2,
+#ejercicio-3,
+#ejercicio-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#ejercicio-1 .boton-infiltrado {
+  height: 100px;
+  width: 150px;
+  border: 5px inset rgba(228, 174, 197, 1);
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+#ejercicio-2 .search-bar {
+  width: 40vw;
+  height: 3rem;
+  padding: 0.5rem;
+  background: rgba(250, 217, 230, 1);
+  border: 1px solid rgba(36, 61, 37, 1);
+}
+
+.search-bar div {
+  display: flex;
+  flex-direction: row-reverse;
+  width:100%;
+  border: 1px solid rgba(36, 61, 37, 1);
+}
+
+.search-bar div button {
+  width: 15%;
+  min-width: 4rem;
+  max-width: 8rem;
+  background:rgba(95, 116, 100, 1);
+  color:rgba(250, 217, 230, 1);
+}
+
+#ejercicio-3 nav {
+  height: 3rem;
+  width: 70%;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#ejercicio-3 li {
+  list-style: none;
+  display: inline;
+  padding-left: 1rem;
+}
+
+#ejercicio-3 img {
+  height: 100%;
+}
+
+#ejercicio-4 .hashtag-container {
+  width: 60%;
+  height: 12rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-wrap: wrap;
+  background: rgba(250, 217, 230, 1);
+}
+
+#ejercicio-4 .hashtag {
+  /* flex: 1 1 30%; */
+  width: 30%;
+  padding: 1rem;
+  color: #fff;
+  font-size: 1.3vw;
+  text-align: center;
+  background: rgba(237, 94, 221, 1);
+}
