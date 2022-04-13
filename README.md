@@ -1,10 +1,9 @@
-## Desafio "nombre del desafio"
+## Desafio Flexbox en acción
 
-|Bootcamp 2022 Modulo x|Nombre del modulo|
+|Bootcamp 2022 Modulo 3|Desarrollo de la interfaz de usuario web|
 |----|-----|
-|**Unidad**|nombre unidad|
-|**Día Bootcamp**|xx/?|
-|**Día Modulo**|xx/18|
+|**Unidad 2**|Flexbox|
+|**Día Bootcamp**|27|
+|**Día Modulo**|5/15|
 
-
-El desafío 'mi-desafio' describe el desafio de forma clara y concisa aportando información distinta a la de la tabla.
+Este desafío consiste en 4 pequeños ejercicios de posicionamiento utilizando CSS Flex. 
